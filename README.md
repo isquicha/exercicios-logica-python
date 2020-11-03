@@ -19,4 +19,4 @@ Meus cursos de:
 A [licença](https://creativecommons.org/licenses/by/2.5/br/) da Wiki da Python Brasil.
 
 ## Saiba que
-Como são resoluções para um curso de Lógica de Programação (nível inicante), ão foram utilizadas as famosas boas práticas de programação, pois o objetivo é justamente ensinar os fundamentos de lógica, sem adicionar muita complexidade.
+Como são resoluções para um curso de Lógica de Programação (nível inicante), não foram utilizadas as famosas boas práticas de programação, pois o objetivo é justamente ensinar os fundamentos de lógica, sem adicionar muita complexidade.
