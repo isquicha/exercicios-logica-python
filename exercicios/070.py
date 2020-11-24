@@ -11,7 +11,7 @@ eleitores = int(input("Digite o numero de eleitores: "))
 for i in range(eleitores):
     voto = input(
         "Digite o numero (1/2/3) do candidato em quem o "
-        f"eleitor {i} quer votar: "
+        f"eleitor {i + 1} quer votar: "
     )
     if voto == "1":
         votos_candidato_1 += 1
@@ -22,7 +22,7 @@ for i in range(eleitores):
 
 print(
     "Votação encerrada"
-    f"Candidato 1: {votos_candidato_1} votos"
-    f"Candidato 2: {votos_candidato_2} votos"
-    f"Candidato 3: {votos_candidato_3} votos"
+    f"\nCandidato 1: {votos_candidato_1} voto(s)"
+    f"\nCandidato 2: {votos_candidato_2} voto(s)"
+    f"\nCandidato 3: {votos_candidato_3} voto(s)"
 )
