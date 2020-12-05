@@ -19,10 +19,10 @@ codigo_maior_indice = 0
 menor_indice = 100000000000000
 codigo_menor_indice = 0
 total_de_veiculos = 0
-cidade_smenos_de_2000 = 0
+cidades_menos_de_2000 = 0
 acidentes_cidades_menos_de_2000 = 0
 
-for i in range(5):
+for _ in range(5):
     codigo = int(input("Digite o codigo da cidade: "))
     veiculos = int(input("Digite o número de veículos de passeio: "))
     acidentes = int(input("Digite o número de acidentes: "))
@@ -37,7 +37,7 @@ for i in range(5):
     total_de_veiculos += veiculos
 
     if veiculos < 2000:
-        cidade_smenos_de_2000 += 1
+        cidades_menos_de_2000 += 1
         acidentes_cidades_menos_de_2000 += acidentes
 
 print(
@@ -51,5 +51,5 @@ print(
 print(f"A média de veículos é de {total_de_veiculos/5:.2f}")
 print(
     "A média de acidentes em cidades com menos de 2000 veículos é de "
-    f"{acidentes_cidades_menos_de_2000/cidade_smenos_de_2000:.2f}"
+    f"{acidentes_cidades_menos_de_2000/cidades_menos_de_2000:.2f}"
 )
