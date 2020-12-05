@@ -3,6 +3,19 @@
 ## Descrição
 Resolução em Python dos exercícios de Lógica de Programação e Algoritmos da [lista de exercícios da Wiki da Python Brasil](https://wiki.python.org.br/ListaDeExercicios).
 
+## Conteúdo
+1. [Exercícios de Lógica de Programação em Python](#exercícios-de-lógica-de-programação-em-python)
+   1. [Descrição](#descrição)
+   2. [Conteúdo](#conteúdo)
+   3. [Motivação](#motivação)
+   4. [Olhe também](#olhe-também)
+   5. [Saiba que](#saiba-que)
+   6. [Enunciados](#enunciados)
+      1. [Estruturas sequenciais](#estruturas-sequenciais)
+      2. [Estruturas de decisão](#estruturas-de-decisão)
+      3. [Estruturas de repetição](#estruturas-de-repetição)
+      4. [Listas](#listas)
+
 ## Motivação
 Estou resolvendo esta lista para disponibilizar as resoluções como material complementar do meu curso de [Lógica de Programação e Algoritmos com Python](https://www.udemy.com/course/programarcompython/?referralCode=2657DAE91BF990DE780E).
 
