@@ -20,6 +20,9 @@ A [licença](https://creativecommons.org/licenses/by/2.5/br/) da Wiki da Python 
 
 ## Saiba que
 Como são resoluções para um curso de Lógica de Programação (nível inicante), não foram utilizadas as famosas boas práticas de programação, pois o objetivo é justamente ensinar os fundamentos de lógica, sem adicionar muita complexidade.
+
+## Enunciados
+### Estruturas sequenciais
 #### [Exercicio 001](exercicios/001.py)
 
 Faça um Programa que mostre a mensagem "Alo mundo" na tela.
@@ -162,6 +165,7 @@ Faça um programa que peça o tamanho de um arquivo para download (em MB) e a
 velocidade de um link de Internet (em Mbps), calcule e informe o tempo
 aproximado de download do arquivo usando este link (em minutos).
 
+### Estruturas de decisão
 #### [Exercicio 019](exercicios/019.py)
 
 Faça um Programa que peça dois números e imprima o maior deles.
@@ -453,6 +457,7 @@ usuário e gere um cupom fiscal, contendo as informações da compra:
     valor do desconto
     valor a pagar.
 
+### Estruturas de repetição
 #### [Exercicio 046](exercicios/046.py)
 
 Faça um programa que peça uma nota, entre zero e dez.
@@ -940,3 +945,5 @@ Faça um programa que calcule o valor de H com N termos.
 Faça um programa que mostre os n termos da Série a seguir:
   S = 1/1 + 2/3 + 3/5 + 4/7 + 5/9 + ... + n/m.
 Imprima no final a soma da série.
+
+### Listas
