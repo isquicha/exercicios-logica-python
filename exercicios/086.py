@@ -37,7 +37,6 @@ from os import system
 aluno_com_maior_acerto = ""
 aluno_com_menor_acerto = ""
 maior_acerto = 0
-menor_acerto = 10
 media_da_turma = 0
 numero_de_alunos = 0
 # ? O gabarito e os alunos vão ser dicionários Python
@@ -46,6 +45,7 @@ gabarito = {}
 alunos = {}
 
 numero_de_questoes = int(input("Digite o número de questões: "))
+menor_acerto = numero_de_questoes
 
 # * Programa
 # ? i vai de 1 até o número de questões
