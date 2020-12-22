@@ -958,3 +958,18 @@ Faça um programa que calcule o valor de H com N termos.
 #### [Exercicio 092](exercicios/092.py)
 
 Faça um Programa que leia um vetor de 5 números inteiros e mostre-os.
+
+#### [Exercicio 093](exercicios/093.py)
+
+Faça um Programa que leia um vetor de 10 números reais e mostre-os na ordem
+inversa.
+
+#### [Exercicio 094](exercicios/094.py)
+
+Faça um Programa que leia 4 notas, mostre as notas e a média na tela.
+
+#### [Exercicio 095](exercicios/095.py)
+
+Faça um Programa que leia um vetor de 10 caracteres, e diga quantas consoantes
+foram lidas. Imprima as consoantes.
+
