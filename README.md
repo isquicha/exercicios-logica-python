@@ -973,3 +973,239 @@ Faça um Programa que leia 4 notas, mostre as notas e a média na tela.
 Faça um Programa que leia um vetor de 10 caracteres, e diga quantas consoantes
 foram lidas. Imprima as consoantes.
 
+#### [Exercicio 096](exercicios/096.py)
+
+Faça um Programa que leia 20 números inteiros e armazene-os num vetor.
+Armazene os números pares no vetor PAR e os números IMPARES no vetor impar.
+Imprima os três vetores.
+
+#### [Exercicio 097](exercicios/097.py)
+
+Faça um Programa que peça as quatro notas de 10 alunos, calcule e armazene num
+vetor a média de cada aluno, imprima o número de alunos com média maior ou
+igual a 7.0.
+
+#### [Exercicio 098](exercicios/098.py)
+
+Faça um Programa que leia um vetor de 5 números inteiros, mostre a soma, a
+multiplicação e os números.
+
+#### [Exercicio 099](exercicios/099.py)
+
+Faça um Programa que peça a idade e a altura de 5 pessoas, armazene cada
+informação no seu respectivo vetor. Imprima a idade e a altura na ordem
+inversa a ordem lida.
+
+#### [Exercicio 100](exercicios/100.py)
+
+Faça um Programa que leia um vetor A com 10 números inteiros, calcule e mostre
+a soma dos quadrados dos elementos do vetor.
+
+#### [Exercicio 101](exercicios/101.py)
+
+Faça um Programa que leia dois vetores com 10 elementos cada.
+Gere um terceiro vetor de 20 elementos, cujos valores deverão ser compostos
+pelos elementos intercalados dos dois outros vetores.
+
+#### [Exercicio 102](exercicios/102.py)
+
+Altere o programa anterior, intercalando 3 vetores de 10 elementos cada.
+
+#### [Exercicio 103](exercicios/103.py)
+
+Foram anotadas as idades e alturas de 30 alunos.
+Faça um Programa que determine quantos alunos com mais de 13 anos possuem
+altura inferior à média de altura desses alunos.
+
+#### [Exercicio 104](exercicios/104.py)
+
+Faça um programa que receba a temperatura média de cada mês do ano e
+armazene-as em uma lista.
+Após isto, calcule a média anual das temperaturas e mostre todas as
+temperaturas acima da média anual, e em que mês elas ocorreram
+(mostrar o mês por extenso: 1 – Janeiro, 2 – Fevereiro, . . . ).
+
+#### [Exercicio 105](exercicios/105.py)
+
+Faça um programa que leia um número indeterminado de valores, correspondentes a
+notas, encerrando a entrada de dados quando for informado um valor igual a -1
+(que não deve ser armazenado).
+
+Após esta entrada de dados, faça:
+    Mostre a quantidade de valores que foram lidos;
+    Exiba todos os valores na ordem em que foram informados,
+        um ao lado do outro;
+    Exiba todos os valores na ordem inversa à que foram informados,
+        um abaixo do outro;
+    Calcule e mostre a soma dos valores;
+    Calcule e mostre a média dos valores;
+    Calcule e mostre a quantidade de valores acima da média calculada;
+    Calcule e mostre a quantidade de valores abaixo de sete;
+    Encerre o programa com uma mensagem;
+
+#### [Exercicio 106](exercicios/106.py)
+
+Utilize uma lista para resolver o problema a seguir.
+Uma empresa paga seus vendedores com base em comissões.
+O vendedor recebe $200 por semana mais 9 por cento de suas vendas brutas
+daquela semana.
+Por exemplo, um vendedor que teve vendas brutas de $3000 em uma semana recebe
+$200 mais 9 por cento de $3000, ou seja, um total de $470.
+Escreva um programa (usando um array de contadores) que determine quantos
+vendedores receberam salários nos seguintes intervalos de valores:
+    $200 - $299
+    $300 - $399
+    $400 - $499
+    $500 - $599
+    $600 - $699
+    $700 - $799
+    $800 - $899
+    $900 - $999
+    $1000 em diante
+Desafio:
+    Crie ma fórmula para chegar na posição da lista a partir do salário,
+    sem fazer vários ifs aninhados.
+
+#### [Exercicio 107](exercicios/107.py)
+
+Uma grande emissora de televisão quer fazer uma enquete entre os seus
+telespectadores para saber qual o melhor jogador após cada jogo.
+Para isto, faz-se necessário o desenvolvimento de um programa, que será
+utilizado pelas telefonistas, para a computação dos votos.
+Sua equipe foi contratada para desenvolver este programa.
+Para computar cada voto, a telefonista digitará um número, entre 1 e 23,
+correspondente ao número da camisa do jogador.
+Um número de jogador igual zero, indica que a votação foi encerrada.
+Se um número inválido for digitado, o programa deve ignorá-lo, mostrando uma
+breve mensagem de aviso, e voltando a pedir outro número.
+Após o final da votação, o programa deverá exibir:
+    O total de votos computados;
+    Os númeos e respectivos votos de todos os jogadores que receberam votos;
+    O percentual de votos de cada um destes jogadores;
+    O número do jogador escolhido como o melhor jogador da partida,
+        juntamente com o número de votos e o percentual de votos dados a ele.
+    Observe que os votos inválidos e o zero final não devem ser computados
+        como votos.
+    O resultado aparece ordenado pelo número do jogador.
+    O programa deve fazer uso de arrays.
+    O programa deverá executar o cálculo do percentual de cada jogador
+        através de uma função. Esta função receberá dois parâmetros:
+            o número de votos de um jogador e o total de votos.
+    A função calculará o percentual e retornará o valor calculado.
+
+Exemplo:
+Enquete: Quem foi o melhor jogador?
+
+Número do jogador (0=fim): 9
+Número do jogador (0=fim): 10
+Número do jogador (0=fim): 9
+Número do jogador (0=fim): 10
+Número do jogador (0=fim): 11
+Número do jogador (0=fim): 10
+Número do jogador (0=fim): 50
+Informe um valor entre 1 e 23 ou 0 para sair!
+Número do jogador (0=fim): 9
+Número do jogador (0=fim): 9
+Número do jogador (0=fim): 0
+
+Resultado da votação:
+
+Foram computados 8 votos.
+
+Jogador Votos           %
+9       4               50,0%
+10      3               37,5%
+11      1               12,5%
+O melhor jogador foi o número 9, com 4 votos,
+correspondendo a 50% do total de votos.
+
+#### [Exercicio 108](exercicios/108.py)
+
+Uma empresa de pesquisas precisa tabular os resultados da seguinte enquete
+feita a um grande quantidade de organizações:
+"Qual o melhor Sistema Operacional para uso em servidores?"
+
+As possíveis respostas são:
+
+1- Windows Server
+2- Unix
+3- Linux
+4- Netware
+5- Mac OS
+6- Outro
+
+Você foi contratado para desenvolver um programa que leia o resultado da
+enquete e informe ao final o resultado da mesma.
+O programa deverá ler os valores até ser informado o valor 0, que encerra a
+entrada dos dados.
+Não deverão ser aceitos valores além dos válidos para o programa (0 a 6).
+Os valores referentes a cada uma das opções devem ser armazenados num vetor.
+Após os dados terem sido completamente informados, o programa deverá calcular a
+percentual de cada um dos concorrentes e informar o vencedor da enquete.
+O formato da saída foi dado pela empresa, e é o seguinte:
+
+Sistema Operacional     Votos   %
+-------------------     -----   ---
+Windows Server           1500   17%
+Unix                     3500   40%
+Linux                    3000   34%
+Netware                   500    5%
+Mac OS                    150    2%
+Outro                     150    2%
+-------------------     -----
+Total                    8800
+
+O Sistema Operacional mais votado foi o Unix, com 3500 votos,
+correspondendo a 40% dos votos.
+
+#### [Exercicio 109](exercicios/109.py)
+
+As Organizações Tabajara resolveram dar um abono aos seus colaboradores em
+reconhecimento ao bom resultado alcançado durante o ano que passou.
+Para isto contratou você para desenvolver a aplicação que servirá como uma
+projeção de quanto será gasto com o pagamento deste abono.
+Após reuniões envolvendo a diretoria executiva, a diretoria financeira e os
+representantes do sindicato laboral, chegou-se a seguinte forma de cálculo:
+
+    Cada funcionário receberá o equivalente a 20% do seu salário bruto de
+    dezembro;
+    O piso do abono será de 100 reais, isto é, aqueles funcionários cujo
+    salário for muito baixo recebem este valor mínimo;
+    Neste momento, não se deve ter nenhuma preocupação com colaboradores com
+    tempo menor de casa, descontos, impostos ou outras particularidades.
+
+Seu programa deverá permitir a digitação do salário de um número indefinido
+(desconhecido) de salários.
+Um valor de salário igual a 0 (zero) encerra a digitação.
+Após a entrada de todos os dados o programa deverá calcular o valor do abono
+concedido a cada colaborador, de acordo com a regra definida acima.
+Ao final, o programa deverá apresentar:
+    O salário de cada funcionário, juntamente com o valor do abono;
+    O número total de funcionários processados;
+    O valor total a ser gasto com o pagamento do abono;
+    O número de funcionários que receberão o valor mínimo de 100 reais;
+    O maior valor pago como abono;
+
+Exemplo:
+Projeção de Gastos com Abono
+============================
+
+Salário: 1000
+Salário: 300
+Salário: 500
+Salário: 100
+Salário: 4500
+Salário: 0
+
+Salário    - Abono
+R$ 1000.00 - R$  200.00
+R$  300.00 - R$  100.00
+R$  500.00 - R$  100.00
+R$  100.00 - R$  100.00
+R$ 4500.00 - R$  900.00
+
+Foram processados 5 colaboradores
+Total gasto com abonos: R$ 1400.00
+Valor mínimo foi pago a 3 colaboradores
+Maior valor de abono pago: R$ 900.00
+
