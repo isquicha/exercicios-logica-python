@@ -27,11 +27,6 @@ while sexo.lower() != "f" and sexo.lower() != "m":
     sexo = input("Digite o sexo (f ou m): ")
 
 estado_civil = input("Digite o estado civil (s, c, v, d): ").lower()
-while (
-    estado_civil != "s"
-    and estado_civil != "c"
-    and estado_civil != "v"
-    and estado_civil != "d"
-):
+while estado_civil not in 's c v d':
     print("Estado civil inválido!")
     estado_civil = input("Digite o estado civil (s, c, v, d): ")
