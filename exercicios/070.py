@@ -8,6 +8,7 @@ votos_candidato_1 = 0
 votos_candidato_2 = 0
 votos_candidato_3 = 0
 eleitores = int(input("Digite o numero de eleitores: "))
+
 for i in range(eleitores):
     voto = input(
         "Digite o numero (1/2/3) do candidato em quem o "
@@ -19,10 +20,17 @@ for i in range(eleitores):
         votos_candidato_2 += 1
     if voto == "3":
         votos_candidato_3 += 1
+        
+print("Total de votos ao condidato 1: ", votos_candidato_1)
+print("Total de votos ao condidato 2: ", votos_candidato_2)
+print("Total de votos ao condidato 3: ", votos_candidato_3)
 
-print(
-    "Votação encerrada"
-    f"\nCandidato 1: {votos_candidato_1} voto(s)"
-    f"\nCandidato 2: {votos_candidato_2} voto(s)"
-    f"\nCandidato 3: {votos_candidato_3} voto(s)"
-)
+if votos_candidato_1 > votos_candidato_2 > votos_candidato_3:
+    print("O candidato 1 venceu!!!")
+
+elif votos_candidato_2 > votos_candidato_1 > votos_candidato_3:
+    print("O candidato 2 venceu!!!")
+
+elif votos_candidato_3 > votos_candidato_2 > votos_candidato_1:
+    print("O candidato 3 venceu!!!")
+    
